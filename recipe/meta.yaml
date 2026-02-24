@@ -1,5 +1,5 @@
 {% set name = "damn" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/damn_library/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 3d664a45ba6d71ffdc2ad73be225f1daa2ee0963abdd95cb611aad5df51879c5
+  sha256: f06d5bc27f76ef5836f1991af09c5ff1294ca7c06dea245e0a1de3614a304c24
 
 build:
   number: 0
